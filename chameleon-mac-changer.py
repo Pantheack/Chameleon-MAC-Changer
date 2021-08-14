@@ -7,6 +7,8 @@ os.system("apt-get install figlet")
 os.system("clear")
 os.system("figlet Bukalemun MAC Degistirici")
 print("""
+https://github.com/Pantheack
+
 Bukalemun MAC Adres Değiştirme Programına Hoş Geldiniz.
 
 1) MAC Adresi Rastgele Belirle
