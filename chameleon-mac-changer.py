@@ -14,7 +14,7 @@ Bukalemun MAC Adres Değiştirme Programına Hoş Geldiniz.
 3) MAC Adresi Orijinal Haline Döndür
 """)
 
-islemno = raw_input("İslem No Girin: ")
+islemno = input("İslem No Girin: ")
 
 if(islemno=="1"):
     os.system("sudo ip addr")
