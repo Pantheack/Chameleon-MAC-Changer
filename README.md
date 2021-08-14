@@ -13,6 +13,6 @@ git clone https://github.com/Pantheack/Chameleon-MAC-Changer
 cd Chameleon-MAC-Changer
 python chameleon-mac-changer.py
 
-Make your selection after running Chameleon MAC Changer.
+# Communication
 
 Communication: pantheack@gmail.com
