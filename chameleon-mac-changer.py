@@ -5,7 +5,7 @@ import os
 
 os.system("apt-get install figlet")
 os.system("clear")
-os.system("figlet Chameleon  MAC Changer")
+os.system("figlet Chameleon MAC Changer")
 print("""
 Github: https://github.com/Pantheack
 
