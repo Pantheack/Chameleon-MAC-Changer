@@ -26,7 +26,7 @@ if(islemno=="1"):
 
 
 if(islemno=="2"):
-    macadres = raw_input("Yeni MAC Adresini Girin: ")
+    macadres = input("Yeni MAC Adresini Girin: ")
     os.system("sudo ip addr")
     os.system("sudo ip link set dev eth0 down")
     os.system("sudo macchanger --mac" + macadres + "eth0") 
