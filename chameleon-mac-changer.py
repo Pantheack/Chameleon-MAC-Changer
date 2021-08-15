@@ -18,29 +18,27 @@ Welcome to the chameleon mac changer.
 3) Restore Original MAC Address
 """)
 
-islemno = input("İslem No Girin: ")
+islemno = input("Enter the process number: ")
 
 if(islemno=="1"):
-        os.system("ifconfig eth0 down")
-		os.system("macchanger -r eth0")
-		os.system("ifconfig eth0 up")
+    os.system("sudo ip link set dev eth0 down")
+    os.system("sudo macchanger -r eth0")
+    os.system("sudo ip link set dev eth0 up")
     print("\033[92mYour Mac address has been randomly assigned.")
 
 
 
 if(islemno=="2"):
-    macadres = input("Yeni Mac Adresini Giriniz > ")
-		os.system("ifconfig eth0 down")
-		os.system("macchanger --mac "+macadres+" eth0")
-		os.system("ifconfig eth0 up")
+    macadres = input("Enter the new MAC address: ")
+    os.system("sudo ip link set dev eth0 down")
+    os.system("sudo macchanger --mac" + macadres + "eth0") 
+    os.system("sudo ip link set dev eth0 up")
     print("\033[92mYour Mac address has been manually assigned.")
 
-
-
 if(islemno=="3"):
-        os.system("ifconfig eth0 down")
-		os.system("macchanger -p eth0")
-		os.system("ifconfig eth0 up")
+    os.system("sudo ip link set dev eth0 down")
+    os.system( "sudo macchanger -p eth0")
+    os.system("sudo ip link set dev eth0 up")
     print("\033[92mMAC Address Restored To Its Original State.")
 
 else:
