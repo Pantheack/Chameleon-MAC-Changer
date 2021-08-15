@@ -17,4 +17,4 @@ python chameleon-mac-changer.py
 
 # Communication
 
-Communication: pantheack@gmail.com
+Communication: pantheack.github.io/contact-me.html
