@@ -14,7 +14,3 @@ git clone https://github.com/Pantheack/Chameleon-MAC-Changer
 cd Chameleon-MAC-Changer
 <br> 
 python chameleon-mac-changer.py 
-
-# Communication
-
-Communication: https://pantheack.github.io/contact-me.html
